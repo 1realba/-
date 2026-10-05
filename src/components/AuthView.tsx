@@ -268,7 +268,7 @@ export default function AuthView({ onSuccess }: Props) {
                 id={usernameId}
                 type="text"
                 required
-                placeholder="اسم المستخدم بالأحرف اللاتينية أو الأرقام"
+                placeholder="اسم المستخدم"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
                 className="w-full pr-10 pl-3 py-2.5 text-sm bg-slate-50 border border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#006B3F] focus:bg-white transition"
@@ -294,7 +294,7 @@ export default function AuthView({ onSuccess }: Props) {
                 id={passwordId}
                 type={showPassword ? 'text' : 'password'}
                 required
-                placeholder="أدخل كلمة المرور (إنجليزية فقط بدون مسافات)"
+                placeholder="أدخل كلمة المرور"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 className="w-full pr-10 pl-10 py-2.5 text-sm bg-slate-50 border border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#006B3F] focus:bg-white transition font-mono"
